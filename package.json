@@ -1,0 +1,22 @@
+{
+  "name": "tf-object-recognize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tony <aweed1@swarthmore.edu>",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.1.0",
+    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs-backend-cpu": "^2.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^2.4.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ]
+}
